@@ -1,5 +1,5 @@
 ## Motivation
-The `toString()` method is useful for a logging but its default implementation doesn't generate a readable string. But overriding every single class's `toString()` method is tedious doesn't scale well. `PrettyJsonMixin` overrides the `toString()` method and return a pretty json formatted string.
+The `toString()` method is useful for a logging but its default implementation doesn't generate a readable string. But overriding every single class's `toString()` method is a tedious task and doesn't scale well. `PrettyJsonMixin` overrides the `toString()` method and return a pretty json formatted string.
 
 ## Getting started
 Implement the `toJson()` method, then the `toString()` will automatically produce a pretty json string.
